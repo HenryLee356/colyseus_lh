@@ -2,7 +2,7 @@
   "name": "com.yourcompany.colyseusLH",
   "displayName": "ColyseusLH",
   "version": "1.0.0",
-  "unity": "2021.3",           // 兼容的最低Unity版本
+  "unity": "2021.3",       
   "description": "描述你的SDK功能",
   "author": {
     "name": "luoxuanwan",
@@ -10,7 +10,7 @@
     "url": "https://yourcompany.com"
   },
   "dependencies": {
-    "com.unity.ugui": "1.0.0",  // 依赖的其他Unity包
+    "com.unity.ugui": "1.0.0", 
     "com.yourcompany.otherpkg": "1.0.0"
   },
   "keywords": ["sdk", "utility", "your-feature"],
