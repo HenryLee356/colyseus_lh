@@ -10,8 +10,7 @@
     "url": "https://yourcompany.com"
   },
   "dependencies": {
-    "com.unity.ugui": "1.0.0", 
-    "com.yourcompany.otherpkg": "1.0.0"
+
   },
   "keywords": ["sdk", "utility", "your-feature"],
   "type": "module"
