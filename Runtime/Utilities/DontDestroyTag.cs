@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace utilities
+namespace LhUtils
 {
     public class DontDestroyTag : MonoBehaviour
     {

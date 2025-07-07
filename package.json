@@ -13,5 +13,10 @@
 
   },
   "keywords": ["sdk", "utility", "your-feature"],
-  "type": "module"
+  "type": "module",
+  "files": [
+    "Runtime/",
+    "Documentation~/",
+    "!Tests/"
+  ]
 }
