@@ -2,10 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DontDestroyTag : MonoBehaviour
+
+namespace utilities
 {
-    void Awake()
+    public class DontDestroyTag : MonoBehaviour
     {
-        DontDestroyOnLoad(gameObject);
+        void Awake()
+        {
+            DontDestroyOnLoad(gameObject);
+        }
     }
+
+
 }
+
+

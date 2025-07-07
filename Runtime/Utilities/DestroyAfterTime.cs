@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyAfterTime : MonoBehaviour
+namespace utilities
 {
-    public float lifetime = 5.0f;
-
-    void Awake()
+    public class DestroyAfterTime : MonoBehaviour
     {
-        Destroy(gameObject, lifetime);
+        public float lifetime = 5.0f;
+
+        void Awake()
+        {
+            Destroy(gameObject, lifetime);
+        }
     }
 }
