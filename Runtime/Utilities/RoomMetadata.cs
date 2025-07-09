@@ -1,0 +1,25 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace Colyseus
+{
+
+    //Will add info here as we need it (current turn, for example)
+    [System.Serializable]
+    public class RoomMetadata
+    {
+        public string team0;
+        public string team1;
+
+        /// <summary>
+        /// 检查是否是主机,创建者
+        /// </summary>
+        /// <param name="userName"></param>
+        /// <returns></returns>
+        public bool IsUserCreator(string userName)
+        {
+            return userName.Equals(team0);
+        }
+    }
+}
