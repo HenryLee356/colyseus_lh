@@ -17,6 +17,10 @@
   "files": [
     "Runtime/",
     "Documentation~/",
+    "package.json",     
+    "package.json.meta", 
+    "Runtime.meta", 
+    "Editor.meta", 
     "!Tests/"
   ]
 }
